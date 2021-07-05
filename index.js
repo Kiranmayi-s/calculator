@@ -59,6 +59,7 @@ tr3.append(td13,td14,td15,td16);
 var tr4 = document.createElement('tr');
 var td17= createtrth('button','  C  L  E  A  R  ');
 td17.setAttribute('onclick','clr()');
+td17.setAttribute('id','space');
 var td18= createtrth('button','%');
 td18.setAttribute('onclick','display("%")');
 tr4.append(td17,td18);
