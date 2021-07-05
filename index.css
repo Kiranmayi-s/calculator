@@ -38,6 +38,7 @@ table{
 }
 #space{
     padding-right: 41px;padding-left: 42px;
+    border-radius: 50%;
 }
 #page-wrap {
     width:210px;
