@@ -1,5 +1,6 @@
 var div1 = document.createElement('div');
-div1.setAttribute('class','page-wrap');
+div1.setAttribute('id','page-wrap');
+div1.setAttribute('class','container');
 var text1 = document.createElement('input');
 var heading = document.createElement('p');
 heading.innerHTML="JS CALCULATOR";
