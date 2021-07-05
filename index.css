@@ -1,0 +1,36 @@
+input[type="button"]{
+    background-color: black;
+    color:white;
+    border: solid black 2px;
+    width: 100%;
+   
+}
+div{
+    margin-top: 100px; margin-right: 640px; margin-left: 600px;
+    background-color: gray;
+    border: black solid;
+    padding-right: 15px; padding-left: 30px;
+    padding-top: 40px; padding-bottom: 40px;
+    align-items: center;
+}
+#title{
+    text-align: center;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 30%;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+}
+span{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+}
+#result{
+  padding-top: 10px; padding-right: 40px;
+}
+table{
+    border-spacing: 5px 10px;
+}
