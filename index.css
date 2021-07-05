@@ -32,7 +32,7 @@ table{
 #space{
     padding-right: 40px;padding-left: 40px;
 }
-.page-wrap {
+#page-wrap {
     width: 220px;
     margin: 0 auto;
     }
