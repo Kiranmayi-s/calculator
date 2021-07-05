@@ -1,6 +1,7 @@
 var div1 = document.createElement('div');
+div1.setAttribute('class','page-wrap');
 var text1 = document.createElement('input');
-var heading = document.createElement('span');
+var heading = document.createElement('p');
 heading.innerHTML="JS CALCULATOR";
 
 text1.setAttribute('id','result');
@@ -57,7 +58,7 @@ td16.setAttribute('onclick','display("*")');
 tr3.append(td13,td14,td15,td16);
 
 var tr4 = document.createElement('tr');
-var td17= createtrth('button','  C  L  E  A  R  ');
+var td17= createtrth('button','  C L E A R  ');
 td17.setAttribute('onclick','clr()');
 td17.setAttribute('id','space');
 var td18= createtrth('button','%');
