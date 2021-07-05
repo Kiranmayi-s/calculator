@@ -1,17 +1,11 @@
-input[type="button"]{
-    background-color: black;
-    color:white;
-    border: solid black 2px;
-    width: 100%;
-   
+body{
+    position: relative;
 }
 div{
-    margin-top: 100px; margin-right: 640px; margin-left: 600px;
+    position: absolute; top:100px; right:650px; left:600px;
     background-color: gray;
     border: black solid;
-    padding-right: 15px; padding-left: 30px;
-    padding-top: 40px; padding-bottom: 40px;
-    align-items: center;
+    padding:30px 30px;
 }
 #title{
     text-align: center;
@@ -23,7 +17,7 @@ button{
     color: whitesmoke;
     font-weight: bold;
 }
-span{
+p{
     color: rgb(0, 0, 0);
     font-size: 25px;
     font-weight: bold;
@@ -37,3 +31,7 @@ table{
 #space{
     padding-right: 40px;padding-left: 40px;
 }
+.page-wrap {
+    width: 220px;
+    margin: 0 auto;
+    }
