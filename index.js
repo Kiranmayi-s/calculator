@@ -57,7 +57,7 @@ td16.setAttribute('onclick','display("*")');
 tr3.append(td13,td14,td15,td16);
 
 var tr4 = document.createElement('tr');
-var td17= createtrth('button','  C  L  E  A  R  ');
+var td17= createtrth('button','  C  L a E  A  R  ');
 td17.setAttribute('onclick','clr()');
 var td18= createtrth('button','%');
 td18.setAttribute('onclick','display("%")');
