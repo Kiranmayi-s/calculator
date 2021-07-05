@@ -43,6 +43,7 @@ td10.setAttribute('onclick','display(8)');
 var td11= createtrth('button','9');
 td11.setAttribute('onclick','display(9)');
 var td12= createtrth('button','+');
+td12.setAttribute('id','plus');
 td12.setAttribute('onclick','display("+")');
 
 tr2.append(td9,td10,td11,td12);
@@ -50,12 +51,14 @@ tr2.append(td9,td10,td11,td12);
 var tr3 = document.createElement('tr');
 var td13= createtrth('button','.');
 td13.setAttribute('onclick','display(".")');
+td13.setAttribute('id','dot');
 var td14= createtrth('button','0');
 td14.setAttribute('onclick','display(0)');
 var td15= createtrth('button','=');
 td15.setAttribute('onclick','equate()');
 var td16= createtrth('button','*');
 td16.setAttribute('onclick','display("*")');
+td16.setAttribute('id','star');
 tr3.append(td13,td14,td15,td16);
 
 var tr4 = document.createElement('tr');
