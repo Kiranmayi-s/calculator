@@ -20,6 +20,7 @@ button{
     background-color: black;
     color: whitesmoke;
     font-weight: bold;
+   border-radius: 100%;
 }
 p{
     color: rgb(0, 0, 0);
