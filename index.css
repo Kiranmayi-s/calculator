@@ -23,7 +23,8 @@ p{
     font-weight: bold;
 }
 #result{
-  padding-top: 10px; padding-right: 40px;
+   padding-top: 10px;
+  font-size: medium;
 }
 table{
     border-spacing: 5px 10px;
