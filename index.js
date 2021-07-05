@@ -75,7 +75,7 @@ document.body.append(div1);
 
 function fun(){
   var a = document.getElementById('result').value;
-  var y = a.split(""); let arr = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var y = a.split(""); let arr = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ&!@#$~";
   for(let i=0;i<y.length;i++)
   if(arr.includes(y[i])){
     alert("Only numbers are allowed");
